@@ -1,6 +1,6 @@
 # Job Matcher using Python
 
-This project matches users to the most relevant jobs based on their skills, location, and experience.
+I made this project as part of my internship task to learn how data and logic work together in Python.
 
 ## How it works
 1. User inputs their details.
@@ -23,4 +23,16 @@ pandas, matplotlib
    python main.py
 
 ## Output Example
+
 Displays top job matches and a bar graph of match scores.
+
+## What I Learned
+This project isn't perfect, but it taught me a lot about data cleaning, condition logic, and how to make code actually work.
+
+## Future Improvements
+
+- Add a Streamlit web interface so users can enter their details easily, instead of using the terminal.  
+- Use a more advanced matching logic that weights skill importance and considers partial matches.  
+- Expand the job dataset — recommendations improve when more job options are available.  
+- Add proper error handling to manage missing or invalid data in the CSV file.  
+- Include more visualizations (like pie or scatter plots) for deeper insights.
